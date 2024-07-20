@@ -1,6 +1,6 @@
 import math
 
-points=[(9,20),(7,8),(10,13),(14,6),(32,12),(21,17) ] #tuple türünde oluşturdugumuz noktaları bir listde sakladık
+points=[(9,20),(7,8),(10,13),(14,6),(32,12),(21,17) ] #tuple türünde oluşturdugumuz noktaları bir listde sakladık.
 
 distances=[]
 
@@ -12,7 +12,7 @@ def euclideanDistance ():
       
       a=math.sqrt((points[i][0]-points[j][0])** 2+(points[i][1]-points[j][1])** 2)
       if a !=0:
-         distances.append(a) # tüm noktalar bu listeye ekleniyor ama ben daha düzgün olsun diye bu şekilde yazdım 
+         distances.append(a) # tüm noktalar bu listeye ekleniyor ama ben daha düzgün olsun diye bu şekilde yazdım .
          print(a)
 
      print("------------")       
